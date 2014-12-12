@@ -7,6 +7,9 @@
         
         <!-- include javascripts -->
         <script src="<?php echo root; ?>inc/js/script.js"></script>
+        
+        <!-- Meta tags -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     </head>
     <body>
         <header>
@@ -15,12 +18,12 @@
         <div class="menu">
             <div id="body-holder">
                 <div class="right">
-                    <a href="">LOGIN</a>
-                    <a href="">REGISTER</a>
+                    <a href="login.php">LOGIN</a>
+                    <a href="signup.php">REGISTER</a>
                 </div>
                 <a href="" class="current">HOME</a>
                 <a href="">SHOWCASE</a>
-                <a href="">PRICING</a>
+                <a href="pricing.php">PRICING</a>
                 <a href="">CONTACT</a>
             </div>
         </div>
